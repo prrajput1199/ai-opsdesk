@@ -34,8 +34,9 @@ export function formatHours(hours: number | null | undefined) {
   return `${(hours / 24).toFixed(1)} days`;
 }
 
-export function initials(name: string) {
-  return name
+export function initials(name: string | null | undefined) {
+  return (typeof name === "string" ? name : "")
+    .trim()
     .split(/\s+/)
     .filter(Boolean)
     .slice(0, 2)
