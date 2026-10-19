@@ -1,4 +1,4 @@
-# AI OpsDesk — AI-Powered Support Ticket Intelligence Platform
+# AI OpsDesk - AI-Powered Support Ticket Intelligence Platform
 
 A full-stack customer-support platform. Customers submit tickets, agents resolve them, admins run the operation, and **Google Gemini** helps with triage, summaries, reply drafts and knowledge-base answers. A human approves any AI output before a customer sees it.
 
