@@ -283,7 +283,3 @@ This starts PostgreSQL, Django (gunicorn) and nginx. nginx serves the React buil
 - **SLA uses wall-clock hours**, not business hours or holidays.
 - **AI quality depends on the model.** Output is validated for shape, not for truth, which is why a human must approve everything customer-facing.
 - **Not verified in this build environment:** real Gemini API calls (all AI tests use a mocked client; the SDK's handling of the response schemas was checked offline) and building the Docker images (Docker Hub was unreachable; the compose file and entrypoint were validated, and the same commands were run outside Docker).
-
-## License
-
-MIT (see [LICENSE](LICENSE)).
